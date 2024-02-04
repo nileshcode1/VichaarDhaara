@@ -18,7 +18,7 @@ const MenuPosts = ({ withImage }) => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h3>
           <div className={styles.detail}>
-            <span className={styles.username}>John Doe</span>
+            <span className={styles.username}>Nilesh</span>
             <span className={styles.date}> - 10.03.2023</span>
           </div>
         </div>
