@@ -1,4 +1,3 @@
-
 import styles from "./homepage.module.css";
 import Featured from "../components/featured/Featured";
 import CategoryList from "../components/categoryList/CategoryList";
