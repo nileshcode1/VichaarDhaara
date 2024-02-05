@@ -11,3 +11,8 @@ if (process.env.NODE_ENV === "production") {
 
 export default prisma;
  
+
+
+
+//DATABASE_URL =
+ // "mongodb+srv://nilesh:nilesh@cluster0.2z1amnh.mongodb.net/blog?retryWrites=true&w=majority";
