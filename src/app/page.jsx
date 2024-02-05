@@ -1,8 +1,8 @@
 import Link from "next/link";
 import styles from "./homepage.module.css";
-import Featured from "@/components/featured/Featured";
-import CategoryList from "@/components/categoryList/CategoryList";
-import CardList from "@/components/cardList/CardList";
+import Featured from "../components/featured/Featured";
+import CategoryList from "../components/categoryList/CategoryList";
+import CardList from "../components/cardList/CardList";
 import Menu from "@/components/Menu/Menu";
 
 export default function Home({ searchParams }) {
@@ -14,7 +14,6 @@ export default function Home({ searchParams }) {
       <CategoryList />
       <div className={styles.content}>
         <CardList page={page} />
-      
       </div>
     </div>
   );
